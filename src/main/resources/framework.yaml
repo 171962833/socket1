@@ -5,3 +5,11 @@ redisClient:
    poolTestOnBorrow:true
    poolTestOnReturn:true
    uri:tcp://172.28.250.43:6380/1
+
+webserver:
+   hostname:localhost
+   port:8080
+   webappDir:src/main/webapp
+   maxPostSize:0
+   maxThreads:10
+   acceptCount:10

@@ -41,6 +41,26 @@
             <artifactId>jedis</artifactId>
              <version>2.9.0</version>
         </dependency>
+
+        <!--tomcat嵌入-->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>8.5.13</version>
+        </dependency>
+        <!--主要获取配置属性信息-->
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.10</version>
+        </dependency>
+        <!--避免启动出错-->
+        <dependency>
+            <groupId>tomcat</groupId>
+            <artifactId>jasper-runtime</artifactId>
+            <version>5.5.23</version>
+        </dependency>
+
     </dependencies>
     
     <build>
